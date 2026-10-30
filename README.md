@@ -186,14 +186,18 @@ TRUE(),
 )
 
 7
-DAX Queries
-week_num2 = WEEKNUM('public cc_detail'[week_start_date])
-Revenue = 'public cc_detail'[annual_fees] + 'public cc_detail'[total_trans_amt] + 'public cc_detail'[interest_earned]
+DAX Queries 
+
+week_num2 = WEEKNUM('public cc_detail'[week_start_date]) 
+
+Revenue = 'public cc_detail'[annual_fees] + 'public cc_detail'[total_trans_amt] + 'public cc_detail'[interest_earned] 
+
 Current_week_Reveneue = CALCULATE(
 SUM('public cc_detail'[Revenue]),
 FILTER(
 ALL('public cc_detail'),
 'public cc_detail'[week_num2] = MAX('public cc_detail'[week_num2]))) 
+
 Previous_week_Reveneue = CALCULATE(
 SUM('public cc_detail'[Revenue]),
 FILTER(

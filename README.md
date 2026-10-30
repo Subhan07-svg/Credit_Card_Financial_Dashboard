@@ -1,5 +1,15 @@
 # 💳 Credit Card Financial Dashboard | Power BI, SQL
+<p align = "center"> 
+  <img src = "Credit Card Customer Report.png" 
+    width = "100%" alt = "power BI 
+    Dashboard"> 
+</p>  
 
+<p align = "center"> 
+  <img src = "Credit Card Transaction Report.png" 
+    width = "100%" alt = "power BI 
+    Dashboard"> 
+</p> 
 ## 📌 Project Overview
 
 The **Credit Card Financial Dashboard** is a data analytics project developed using Power BI, SQL, and CSV datasets. The project focuses on analyzing credit card transactions, customer demographics, revenue, interest earned, and transaction behavior.
